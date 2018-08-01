@@ -19,11 +19,11 @@ It shows usage of Sequelize to interact with a MSSQL database.
 1. Clone this repo
 2. Install dependencies: `npm install`
 3. Create a .env file in the root directory and declare following variables in it: 
-    PORT=9000
-    MSSQL_DB_NAME=xxxxxxx
-    MSSQL_DB_USER=xx
-    MSSQL_DB_PASSWORD=xxxxxxxxxxx
-    LOGGER_TOKEN=xxxx-xxxx-xxx
+    * PORT=9000
+    * MSSQL_DB_NAME=xxxxxxx
+    * MSSQL_DB_USER=xx
+    * MSSQL_DB_PASSWORD=xxxxxxxxxxx
+    * LOGGER_TOKEN=xxxx-xxxx-xxx
 4. This project assumes that the MSSQL server is running on localhost. If you are accessing a MSSQL server that is hosted remotely, mention the remote address of the database server inside the server/config.js file.
 5. Run the service: `npm start`
 
