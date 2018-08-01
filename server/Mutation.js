@@ -16,6 +16,7 @@ export default new GraphQLObjectType({
         args: ItemArgs,
         resolve(_,args){
           return ItemModel.create({
+            id: args.id,
             name: args.name,
             amount: args.amount || 0.00,
             custom_id: args.custom_id,
